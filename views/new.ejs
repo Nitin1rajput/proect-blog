@@ -1,0 +1,13 @@
+<%- include("header") -%> 
+
+<%  for(var i=0 ; i< row.length; i++) { %>
+    <h1><%= row[i].Title %> </h1>
+<% } %>
+
+<form action="/new" method="post">
+<input type="file" name="fileToUpload">
+<input type="submit" value="Upload Image" name="submit">
+</form>
+
+
+<%- include("footer") -%> 

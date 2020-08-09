@@ -1,0 +1,54 @@
+<%- include('header') -%> 
+<div class="timeline-container" id="timeline-1">
+    <div class="timeline-header">
+      <h2 class="timeline-header__title"><%= title %> </h2>
+      
+    </div>
+    <%  for(var i=0 ; i< row.length; i++) { %>
+    <div class="timeline">
+      <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
+        <div class="timeline__content"><img class="timeline__img" src="/public/images/iconfinder_social-snapchat-2019-circle_5040274.png" />
+          <h2 class="timeline__content-title"><%= row[i].Title %></h2>
+          <p class="timeline__content-desc"><%= row[i].Description %></p>
+          <a href="#" class="btn btn-dark">Aaage dekhoge? 😁</a>
+        </div>
+      </div>
+      <% } %>
+      <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
+        <div class="timeline__content"><img class="timeline__img" src="/public/images/missing.jpg"/>
+          <h2 class="timeline__content-title">Gayab?</h2>
+          <p class="timeline__content-desc">Where are you? Worst 2 days of life...😢😢</p>
+          <a href="#" class="btn btn-dark">Aaage dekhoge? 😁</a>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
+        <div class="timeline__content"><img class="timeline__img" src="/public/images/lobe.jpeg"/>
+          <h2 class="timeline__content-title">😅 I know my side </h2>
+          <p class="timeline__content-desc">Now, I proudly say I lobe you..😁😁</p>
+          <a href="#" class="btn btn-dark">Aaage dekhoge? 😁</a>
+        </div>
+      </div>
+      <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
+        <div class="timeline__content"><img class="timeline__img" src="/public/images/phone.jpg"/>
+          <h2 class="timeline__content-title">Toot Gya</h2>
+          <p class="timeline__content-desc">Mai or mere papa ka gussa kabi bi bhid jaate hai toh bs😕</p>
+          <a href="#" class="btn btn-dark">Aaage dekhoge? 😁</a>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
+        <div class="timeline__content"><img class="timeline__img" src="/public/images/phone.jpg"/>
+          <h2 class="timeline__content-title">Toot Gya</h2>
+          <p class="timeline__content-desc">Mai or mere papa ka gussa kabi bi bhid jaate hai toh bs😕</p>
+          <a href="#" class="btn btn-dark">Aaage dekhoge? 😁</a>
+        </div>
+      </div>
+  
+    
+
+
+    </div>
+  </div>
+
+
+<%- include('footer') -%> 
